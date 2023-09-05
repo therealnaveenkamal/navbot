@@ -10,7 +10,7 @@ Visualization Manager:
       Normal Cell Count: 0
       Plane: XY
       Plane Cell Count: 10
-      Reference Frame: <Fixed Frame>
+      Reference Frame: 
       Value: true
     - Alpha: 1
       Class: rviz/RobotModel
@@ -36,6 +36,40 @@ Visualization Manager:
         MWS: true
         MarkerWithShape: true
       Queue Size: 100
+      Value: true
+    - Angle Tolerance: 0.1
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.3
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: false
+      Enabled: true
+      Keep: 100
+      Name: Path Travelled
+      Position Tolerance: 0.1
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.1
+        Color: 255; 25; 0
+        Head Length: 0
+        Head Radius: 0
+        Shaft Length: 0.1
+        Shaft Radius: 0.05
+        Value: Arrow
+      Topic: /odom
+      Unreliable: false
       Value: true
   Name: root
   Tools:
